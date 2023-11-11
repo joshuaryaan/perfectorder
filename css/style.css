@@ -1,0 +1,520 @@
+body {
+    margin: 0;
+<<<<<<< Updated upstream
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    padding-top: 70px;
+    overflow: auto;
+}
+
+p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+h1 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+h2 {
+    margin: 0;
+    font-size: 14px;
+=======
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    margin: 0 0 10px 0;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+h2 {
+    font-size: 20px;
+>>>>>>> Stashed changes
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+<<<<<<< Updated upstream
+h3 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+h4 {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.7;
+    color: #5f5f5f;
+}
+
+strong {
+    font-weight: 500;
+}
+
+a {
+    color: inherit;
+}
+
+.button {
+    color: white;
+    background-color: #333333;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 3px;
+    box-shadow: -2px 2px 4px rgba(0,0,0,0.1);
+    transition: background-color 400ms;
+    transition: box-shadow 400ms;
+}
+
+.button:hover {
+    background-color: #1A1A1A;
+    box-shadow: -3px 3px 5px rgba(0,0,0,0.15);
+}
+
+/*HEADER*/
+
+=======
+button {
+    background-color: #749576; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    border-radius: 30px;
+}
+
+button.secondary {
+    background-color: #787798;
+}
+
+>>>>>>> Stashed changes
+header {
+    width: 100%;
+<<<<<<< Updated upstream
+    height: 70px;
+    top: 0;
+    font-size: 13px;
+    z-index: 10;
+}
+
+header ul {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    left: 40px;
+    right: auto;
+}
+
+header ul:nth-of-type(even) {
+    left: auto;
+    right: 40px;
+}
+
+header li {
+    float: left;
+    margin: 0 30px 0 0;
+}
+
+header ul:nth-of-type(even) li {
+    margin: 0 0 0 30px;
+}
+
+/*INDEX*/
+
+.panel {
+    position: relative;
+    width: 100%;
+    overflow: auto;
+/*    padding: 40px 0 60px 0;*/
+}
+
+.panel.grey {
+    background-color: #d8d8d8;
+}
+
+.panel.single .hero {
+    width: calc(100vw - 60px);
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.panel.single .hero .image {
+    position: relative;
+    width: calc(66.66% - 20px);
+    margin: 0 10px 40px 10px;
+    float: left;
+    height: calc(37.44vw - 11px);
+    background-color: gainsboro;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.panel.single .hero .image .gradient {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.10) 100%);
+}
+
+.panel.single .hero .image img {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 101%;
+    height: auto;
+    -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+.panel.single .hero .text {
+    position: absolute;
+    width: calc(33.33% - 40px);
+    margin: 0 30px 40px 10px;
+    right: 10px;
+    bottom: 0px;
+}
+
+.panel.single .hero .text h1 {
+    margin-bottom: 10px;
+}
+
+.panel > h1 {
+    display: inline-block;
+    margin: 40px 20px 20px 40px;
+}
+
+.panel .featured {
+    width: calc(100vw - 60px);
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.panel .featured .item {
+    width: calc(33.33% - 20px); /* WIP:SHOULD BE 20*/
+    margin: 0 10px 40px 10px;
+    overflow: auto;
+    float: left;
+}
+
+.panel .featured div .wrapper {
+    position: relative;
+    width: 100%;
+    height: calc(18.7vw - 11px);
+    background-color: white;
+    margin-bottom: 8px;
+    border-radius: 3px;
+    float: left;
+    overflow: hidden;
+}
+
+.panel .featured div .wrapper img {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 102%;
+    height: auto;
+    -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+.panel .featured span {
+    float: left;
+    width: calc(100% - 60px);
+}
+
+.panel .featured div a > h4 {
+    float: right;
+    max-width: 60px;
+    overflow-wrap: break-word;
+    text-align: right;
+    pointer-events: none;
+}
+
+@media (max-width: 800px) {
+
+    header ul {
+        left: 20px;
+    }
+
+    header ul:nth-of-type(even) {
+        right: 20px;
+    }
+    
+    .panel.single .hero {
+        width: calc(100vw - 40px);
+    }
+
+    .panel.single .hero .image {
+        position: relative;
+        width: 100%;
+        margin: 0 0 20px 0;
+        float: left;
+        height: calc(56.25vw - 11px);
+    }
+    
+    .panel.single .hero .text {
+        position: static;
+        width: 100%;
+        margin: 0 0 40px 0;
+    }
+    
+=======
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    margin: 20px 0 0 40px;
+    width: 90px;
+}
+
+header nav {
+    display: none;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0; padding: 0;
+}
+
+header nav ul li {
+    float: left;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    margin: 0 20px;
+    padding: 10px 10px;
+}
+
+header button {
+    margin-right: 34px;
+}
+
+footer {
+    width: 100%;
+    min-height: 200px;
+    background-color: #eaeaea;
+}
+
+section {
+    display: flex;
+    position: relative;
+}
+
+section .background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -80px; left: 0;
+    z-index: -1;
+    background-color: #eaeaea;
+}
+
+.left {
+    float: left;
+    width: 50vw;
+    height: auto;
+    overflow-x: clip;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    float: right;
+    width:50vw;
+    height: auto;
+    overflow-x: clip;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.large {
+    position: relative;
+    height: calc(100vh - 114px);
+    width: calc(100% + 4px);
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: #56C596;
+    overflow: hidden;
+    box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.04);
+}
+
+.right .large {
+    margin: 0px -14px 40px 10px;
+}
+
+.left .large {
+    margin: 0px 10px 40px -14px;
+}
+
+.large img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.large .filter {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0; top: 0;
+    z-index: 1;
+    background: radial-gradient(circle, rgba(198,232,251,0) 0%, rgba(198,232,251,0.6699273459383753) 89%, rgba(216,240,253,0.821187850140056) 100%);
+    opacity: 15%;
+}
+
+.text {
+    margin-bottom: 80px;
+    max-width: 46em
+}
+
+.left .text {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.right .text {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.full .text {
+    margin: 40px 40px 60px 40px;
+}
+
+.text button {
+    margin: 10px 0;
+}
+
+.text ul {
+    list-style: none;
+    margin: 30px 0 0 0;
+    padding: inherit;
+}
+
+.text li {
+    margin: 10px 0 20px 0;
+    display: flex;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.text li:before {
+    content: '\2713';
+    padding-right: 10px;
+}
+
+/*Small Screens*/
+@media (max-width: 1000px) {
+   
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+    
+}
+
+/*Mobile Screens*/
+@media (max-width: 880px) {
+    
+    h1 {
+        font-size: 38px
+    }
+    
+    h2 {
+        font-size: 19px;
+    }
+    
+    header img {
+        width: 60px;
+    }
+    
+    section {
+        display: flex;
+        flex-flow: column; 
+    }
+    
+    .left {
+        width: 100%;
+        display: block;
+    }
+
+    .right {
+        width:100%;
+        display: block;
+    }
+    
+    .left:has(.large), .right:has(.large) {
+        order: 1;
+    }
+    
+    .text {
+        margin: 40px;
+    }
+    
+    .left .large, .right .large {
+        margin-bottom: 0px
+    }
+    
+    .large {
+        height: 60vw;
+    }
+    
+    .text li {
+        font-size: 15px;
+    }
+    
+    .text li:last-of-type {
+        margin-bottom: 0;
+    }
+
+}
+
+/*Large Screens*/
+@media (min-width: 1800px) {
+  
+>>>>>>> Stashed changes
+}
