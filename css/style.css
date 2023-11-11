@@ -154,18 +154,8 @@ section .background {
 }
 
 .text {
-    margin-bottom: 80px;
+    margin: 0 40px 80px 40px;
     max-width: 46em
-}
-
-.left .text {
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
-.right .text {
-    margin-left: 40px;
-    margin-right: 40px;
 }
 
 .full .text {
@@ -220,7 +210,13 @@ section .background {
     }
     
     header img {
-        width: 60px;
+        margin: 0px 0 0 20px;
+        height: 55px;
+        width: auto;
+    }
+    
+    header button {
+        margin-right: 20px;
     }
     
     section {
@@ -243,7 +239,11 @@ section .background {
     }
     
     .text {
-        margin: 40px;
+        margin: 40px 20px 40px 20px;
+    }
+    
+    .full .text {
+        margin: 40px 20px 60px 20px;
     }
     
     .left .large, .right .large {
